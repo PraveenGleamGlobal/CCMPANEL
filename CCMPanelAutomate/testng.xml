@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CCM Panel">
+
+
+      <test thread-count="5" name="Signup Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.SignupPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="MiningFarmPage Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.MiningFarmPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="checkoutPage Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.CheckoutPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="Payment Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.PaymentPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="FinanceLogin Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.FinanceLoginPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="FinancePaymentModule Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.FinancePaymentModuleTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="ProfileUpdate Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.ProfileUpdatingPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="ManagementPanel CustomerPage Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.ManagementCustomerPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="Mines InvoiceVerificationPage Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.FinanceInvoiceVerificationPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="MyFactoryProfileUpdate Page Test">
+      <classes>
+      <class name="com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest"/>
+      </classes>
+      </test>
+
+       
+</suite> 
+
+
+
+
+
+
+
+
+
+
+
+
+

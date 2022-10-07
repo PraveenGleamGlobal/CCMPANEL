@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Signup Test(failed)">
+    <classes>
+      <class name="com.ccm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="executeloginpage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ccm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Signup Test(failed) -->
+  <test thread-count="5" name="MiningFarmPage Test(failed)">
+    <classes>
+      <class name="com.ccm.qa.testcases.MiningFarmPageTest">
+        <methods>
+          <include name="executeMiningFarmPage"/>
+        </methods>
+      </class> <!-- com.ccm.qa.testcases.MiningFarmPageTest -->
+    </classes>
+  </test> <!-- MiningFarmPage Test(failed) -->
+  <test thread-count="5" name="checkoutPage Test(failed)">
+    <classes>
+      <class name="com.ccm.qa.testcases.CheckoutPageTest">
+        <methods>
+          <include name="executeCheckoutPage"/>
+        </methods>
+      </class> <!-- com.ccm.qa.testcases.CheckoutPageTest -->
+    </classes>
+  </test> <!-- checkoutPage Test(failed) -->
+  <test thread-count="5" name="Payment Test(failed)">
+    <classes>
+      <class name="com.ccm.qa.testcases.PaymentPageTest">
+        <methods>
+          <include name="executePaymentPage"/>
+        </methods>
+      </class> <!-- com.ccm.qa.testcases.PaymentPageTest -->
+    </classes>
+  </test> <!-- Payment Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

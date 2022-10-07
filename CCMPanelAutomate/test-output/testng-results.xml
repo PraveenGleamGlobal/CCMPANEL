@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T09:55:59 IST" name="Default suite" finished-at="2022-10-07T09:56:21 IST" duration-ms="22250">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T09:55:59 IST" name="Default test" finished-at="2022-10-07T09:56:21 IST" duration-ms="22250">
+      <class name="com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest@645aa696]" started-at="2022-10-07T09:55:59 IST" name="setup" finished-at="2022-10-07T09:56:01 IST" duration-ms="2248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="exceuteLoginPage()[pri:1, instance:com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest@645aa696]" started-at="2022-10-07T09:56:01 IST" name="exceuteLoginPage" finished-at="2022-10-07T09:56:05 IST" duration-ms="4053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exceuteLoginPage -->
+        <test-method signature="executeMyfactoryUpdateprofilePage()[pri:2, instance:com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest@645aa696]" started-at="2022-10-07T09:56:05 IST" name="executeMyfactoryUpdateprofilePage" finished-at="2022-10-07T09:56:13 IST" duration-ms="7583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeMyfactoryUpdateprofilePage -->
+        <test-method signature="executeMufactoryUploadDocumentsPage()[pri:3, instance:com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest@645aa696]" started-at="2022-10-07T09:56:13 IST" name="executeMufactoryUploadDocumentsPage" finished-at="2022-10-07T09:56:19 IST" duration-ms="6205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeMufactoryUploadDocumentsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest@645aa696]" started-at="2022-10-07T09:56:19 IST" name="tearDown" finished-at="2022-10-07T09:56:21 IST" duration-ms="2131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ccm.qa.testcases.MyfactoryUpdateProfilePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
